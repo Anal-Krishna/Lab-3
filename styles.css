@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#hamburgerOptions .option {
+    background: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#burgerSummary {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #dff0d8;
+    border-radius: 5px;
+}

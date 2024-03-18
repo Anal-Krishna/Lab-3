@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Hamburger Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Dynamic Hamburger Builder</h1>
+<div id="hamburgerOptions">
+    <div class="option">
+        <label for="bun">Choose your bun:</label>
+        <select id="bun">
+            <option value="White">White</option>
+            <option value="Whole Wheat">Whole Wheat</option>
+            <option value="Potato">Potato</option>
+        </select>
+    </div>
+    <div class="option">
+        <label>Choose your toppings:</label>
+        <div><input type="checkbox" id="lettuce" value="Lettuce"> Lettuce</div>
+        <div><input type="checkbox" id="tomato" value="Tomato"> Tomato</div>
+        <div><input type="checkbox" id="onions" value="Onions"> Onions</div>
+        
+    </div>
+    <button onclick="buildHamburger()">Build Your Burger</button>
+</div>
+<div id="burgerSummary"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
